@@ -3,19 +3,13 @@ const fs = require('fs');
 const path = require('path');
 
 const app = express();
-const PORT = 3000;
+
+// Carregar os dados do JSON
+const plants = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'plants.json'), 'utf-8'));
 
 // Configurações
 app.use(express.static('public'));
 app.set('view engine', 'ejs');
-
-// Carregar os dados do JSON
-const plants = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'plants.json'), 'utf-8'));
-
-// Rota principal
-app.get('/', (req, res) => {
-  res.render('index', { title: 'Horta Escolar', plants });
-});
 
 // Rota dinâmica para cada planta
 app.get('/plant/:id', (req, res) => {
@@ -27,9 +21,5 @@ app.get('/plant/:id', (req, res) => {
   }
 });
 
-// Iniciar o servidor
-app.listen(PORT, () => {
-  console.log(`Servidor rodando em http://localhost:${PORT}`);
-});
-
+// Exporta a função para Vercel
 module.exports = app;
