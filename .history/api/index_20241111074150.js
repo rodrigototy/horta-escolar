@@ -1,7 +1,6 @@
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
-const plantRoutes = require('./plant');
 
 const app = express();
 
@@ -11,9 +10,6 @@ const plants = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'pl
 // Configurações
 app.use(express.static('public'));
 app.set('view engine', 'ejs');
-
-// Rota para plantas
-app.use('/plant', plantRoutes);
 
 // Rota principal
 app.get('/', (req, res) => {

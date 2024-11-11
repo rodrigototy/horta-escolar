@@ -22,5 +22,5 @@ router.get('/:id', (req, res) => {
   }
 });
 
-// Exporta a rota para aplicação
+// Exporta a rota para aplicac
 module.exports = router;

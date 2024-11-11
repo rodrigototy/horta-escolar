@@ -1,7 +1,7 @@
 const express = require('express');
+const router = express.Router();
 const fs = require('fs');
 const path = require('path');
-const plantRoutes = require('./plant');
 
 const app = express();
 
@@ -12,12 +12,14 @@ const plants = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'pl
 app.use(express.static('public'));
 app.set('view engine', 'ejs');
 
-// Rota para plantas
-app.use('/plant', plantRoutes);
-
-// Rota principal
-app.get('/', (req, res) => {
-  res.render('index', { title: 'Horta Escolar', plants });
+// Rota dinâmica para cada planta
+app.get('/plant/:id', (req, res) => {
+  const plant = plants.find(p => p.id === req.params.id);
+  if (plant) {
+    res.render('plant', { title: plant.name, plant });
+  } else {
+    res.status(404).send('Planta não encontrada');
+  }
 });
 
 // Exporta a função para Vercel
