@@ -4,8 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "echo 'No build step required'",
-		"start": "node api/index.js"
+    "build": "echo 'No build step required'"
   },
   "keywords": [],
   "author": "",
@@ -14,7 +13,7 @@
   "dependencies": {
     "ejs": "^3.1.10",
     "express": "^4.21.1",
-    "node": "^20.18.0",
+    "node": "^.20.4",
     "nvm": "^0.0.4"
   }
 }
