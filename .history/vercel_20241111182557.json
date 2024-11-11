@@ -3,16 +3,13 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "/api"
-    }
-  ],
   "headers": [
     {
       "source": "/(.*)",
       "headers": [
         {
           "key": "Content-Security-Policy",
-          "value": "default-src 'self'; script-src 'self' https://vercel.live; style-src 'self' 'unsafe-inline'; img-src 'self' data:; object-src 'none'; font-src 'self';"
+          "value": "default-src 'self' https://vercel.live; script-src 'self' https://vercel.live; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;"
         },
         {
           "key": "X-Frame-Options",
@@ -23,6 +20,9 @@
           "value": "nosniff"
         }
       ]
+    }
+  ],
+      "destination": "/api"
     }
   ]
 }

@@ -12,7 +12,7 @@
       "headers": [
         {
           "key": "Content-Security-Policy",
-          "value": "default-src 'self'; script-src 'self' https://vercel.live; style-src 'self' 'unsafe-inline'; img-src 'self' data:; object-src 'none'; font-src 'self';"
+          "value": "default-src 'none'; script-src 'self' https://vercel.live; object-src 'none';"
         },
         {
           "key": "X-Frame-Options",
