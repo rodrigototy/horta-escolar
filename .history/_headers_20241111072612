@@ -1,0 +1,4 @@
+/*  
+  Content-Security-Policy: default-src 'none'; script-src 'self' https://vercel.live; object-src 'none';
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
