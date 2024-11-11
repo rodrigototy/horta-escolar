@@ -12,6 +12,8 @@
   "description": "",
   "dependencies": {
     "ejs": "^3.1.10",
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "node": "^18.20.4",
+    "nvm": "^0.0.4"
   }
 }
