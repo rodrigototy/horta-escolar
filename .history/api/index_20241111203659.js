@@ -34,6 +34,5 @@ app.get("/", (req, res) => {
 
 // Rota para plantas
 app.use("/plant", plantRoutes);
-
 // Exporta a função para Vercel
 module.exports = app;

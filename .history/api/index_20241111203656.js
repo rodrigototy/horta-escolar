@@ -32,8 +32,5 @@ app.get("/", (req, res) => {
   res.render("index", { title: "Horta Escolar", plants });
 });
 
-// Rota para plantas
-app.use("/plant", plantRoutes);
-
 // Exporta a função para Vercel
 module.exports = app;
