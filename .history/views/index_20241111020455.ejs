@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horta Escolar</title>
+  <link rel="stylesheet" href="/styles/player.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Bem-vindo à Horta Escolar</h1>
+    <section class="group">
+      <h2>Plantas</h2>
+      <div class="card-container">
+        <% plants.forEach(plant => { %>
+          <div class="card">
+            <a href="/plant/<%= plant.id %>">
+              <div class="card-front">
+                <img src="/img/<%= plant.image %>" alt="<%= plant.name %>">
+                <h3><%= plant.name %></h3>
+              </div>
+            </a>
+          </div>
+        <% }) %>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

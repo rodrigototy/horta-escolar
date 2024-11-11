@@ -1,0 +1,104 @@
+{
+    "plants": [
+        {
+            "id": "pimenta",
+            "name": "Pimenta",
+            "image": "pimenta.jpg",
+            "scientific_name": "Capsicum spp.",
+            "characteristics": "Fruto pequeno e picante, variedades de cores vibrantes.",
+            "benefits": "Rica em vitamina C e capsaicina, que tem propriedades antioxidantes e anti-inflamatórias.",
+            "uses": "Temperos, conservas e molhos.",
+            "watering": "Regar 2-3 vezes por semana, preferencialmente pela manhã.",
+            "sunlight": "Sol pleno"
+        },
+        {
+            "id": "pimentao",
+            "name": "Pimentão",
+            "image": "pimentao.jpg",
+            "scientific_name": "Capsicum annuum",
+            "characteristics": "Fruto grande, com cores verde, vermelho, amarelo ou laranja.",
+            "benefits": "Fonte de vitamina A, C e fibras.",
+            "uses": "Saladas, refogados e recheios.",
+            "watering": "Regar 2-3 vezes por semana.",
+            "sunlight": "Sol pleno"
+        },
+        {
+            "id": "mamao",
+            "name": "Mamão",
+            "image": "mamao.jpg",
+            "scientific_name": "Carica papaya",
+            "characteristics": "Árvore de porte médio, fruto doce e carnudo.",
+            "benefits": "Rico em fibras, vitamina A e enzimas digestivas como a papaína.",
+            "uses": "Consumo in natura e sucos.",
+            "watering": "Regar 1-2 vezes por semana.",
+            "sunlight": "Sol pleno"
+        },
+        {
+            "id": "cebolinha",
+            "name": "Cebolinha",
+            "image": "cebolinha.jpg",
+            "scientific_name": "Allium schoenoprasum",
+            "characteristics": "Folhas finas e verdes, sabor suave de cebola.",
+            "benefits": "Fonte de vitamina K e antioxidantes.",
+            "uses": "Temperos e guarnições.",
+            "watering": "Regar 2-3 vezes por semana.",
+            "sunlight": "Sol pleno"
+        },
+        {
+            "id": "tomate-cereja",
+            "name": "Tomate cereja",
+            "id": "cebolinha",
+            "scientific_name": "Solanum lycopersicum var. cerasiforme",
+            "characteristics": "Frutos pequenos e adocicados.",
+            "benefits": "Rico em licopeno e vitamina C.",
+            "uses": "Saladas e snacks.",
+            "watering": "Regar 2-3 vezes por semana.",
+            "sunlight": "Sol pleno"
+        },
+        {
+            "name": "Couve folha",
+            "scientific_name": "Brassica oleracea var. acephala",
+            "characteristics": "Folhas grandes e verdes, textura robusta.",
+            "benefits": "Rica em ferro, cálcio e fibras.",
+            "uses": "Refogados e sucos verdes.",
+            "watering": "Regar 2-3 vezes por semana.",
+            "sunlight": "Sol pleno ou meia-sombra"
+        },
+        {
+            "name": "Rúcula",
+            "scientific_name": "Eruca sativa",
+            "characteristics": "Folhas verdes com sabor levemente picante.",
+            "benefits": "Fonte de antioxidantes e vitamina K.",
+            "uses": "Saladas e sanduíches.",
+            "watering": "Regar 3-4 vezes por semana.",
+            "sunlight": "Meia-sombra"
+        },
+        {
+            "name": "Mastruz",
+            "scientific_name": "Dysphania ambrosioides",
+            "characteristics": "Folhas verdes e aroma forte.",
+            "benefits": "Propriedades medicinais, como ação vermífuga.",
+            "uses": "Chás e remédios caseiros.",
+            "watering": "Regar 1-2 vezes por semana.",
+            "sunlight": "Sol pleno"
+        },
+        {
+            "name": "Erva cidreira",
+            "scientific_name": "Cymbopogon citratus",
+            "characteristics": "Folhas longas e aromáticas.",
+            "benefits": "Propriedades calmantes e digestivas.",
+            "uses": "Chás e infusões.",
+            "watering": "Regar 2-3 vezes por semana.",
+            "sunlight": "Sol pleno ou meia-sombra"
+        },
+        {
+            "name": "Malva",
+            "scientific_name": "Malva sylvestris",
+            "characteristics": "Folhas largas e flores arroxeadas.",
+            "benefits": "Propriedades anti-inflamatórias e calmantes.",
+            "uses": "Chás e remédios caseiros.",
+            "watering": "Regar 2-3 vezes por semana.",
+            "sunlight": "Meia-sombra"
+        }
+    ]
+}

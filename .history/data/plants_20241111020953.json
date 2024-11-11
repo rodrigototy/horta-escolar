@@ -1,0 +1,23 @@
+[
+    {
+      "id": "banana",
+      "name": "Banana",
+      "image": "banana.png",
+      "description": [
+        "Rica em potássio, ajuda no controle da pressão arterial.",
+        "Fonte de energia rápida, ótima para esportistas.",
+        "Quanto mais madura, mais doce!"
+      ]
+    },
+    {
+      "id": "manga",
+      "name": "Manga",
+      "image": "manga.jpg",
+      "description": [
+        "Cheia de vitamina C, fortalece o sistema imunológico.",
+        "Contém fibras que auxiliam na digestão.",
+        "Curiosidade: existem muitas variedades como Palmer e Tommy."
+      ]
+    }
+  ]
+  
