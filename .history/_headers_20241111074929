@@ -1,0 +1,7 @@
+# Cabeçalhos específicos para a página index
+/  
+  Content-Security-Policy: default-src 'self'; script-src 'self' https://vercel.live;
+
+# Cabeçalhos específicos para outra rota
+/about
+  X-Frame-Options: SAMEORIGIN
