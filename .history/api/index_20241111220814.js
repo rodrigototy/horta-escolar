@@ -24,8 +24,7 @@ app.use(
     contentSecurityPolicy: {
       directives: {
         defaultSrc: ["'self'"],
-        scriptSrc: ["'self'", "https://vercel.live"],
-        frameSrc: ["'self'", "https://vercel.live"],
+        scriptSrc: ["'self'", "https://vercel.live"],, frameSrc: ["'self'", "https://vercel.live"]
       },
     },
   })

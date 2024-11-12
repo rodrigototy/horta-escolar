@@ -25,7 +25,7 @@ app.use(
       directives: {
         defaultSrc: ["'self'"],
         scriptSrc: ["'self'", "https://vercel.live"],
-        frameSrc: ["'self'", "https://vercel.live"],
+        frameSrc: ["'self'", "https://vercel.live"]
       },
     },
   })
