@@ -10,9 +10,7 @@ const app = express();
 const plants = JSON.parse(
   fs.readFileSync(path.join(__dirname, "..", "data", "plants.json"), "utf-8")
 );
-
-// Configuração do diretório de arquivos estáticos
-app.use(express.static(path.join(__dirname, "..", "public")));
+// Configuração do diretório de arquivos estáticos app.use(express.static(path.join(__dirname, "..", "public")));
 
 // Configuração do diretório de views
 app.set("views", path.join(__dirname, "..", "views"));
