@@ -30,7 +30,7 @@ const generateQRCodeWithText = async (plant) => {
   ctx.font = '36px Arial';
   ctx.fillStyle = 'black';
   ctx.textAlign = 'center';
-  ctx.fillText(plant.name, canvas.width / 2, 75);
+  ctx.fillText(plant.name, canvas.width / 2, 50);
 
   // Gera o QR Code como um Data URL
   const qrCodeUrl = await QRCode.toDataURL(`https://horta-escolar.vercel.app/plant/${plant.id}`);

@@ -19,7 +19,7 @@ if (!fs.existsSync(outputDir)) {
 
 // Função para gerar a imagem com texto e QR Code
 const generateQRCodeWithText = async (plant) => {
-  const canvas = createCanvas(500, 550); // Ajuste o tamanho conforme necessário
+  const canvas = createCanvas(300, 350); // Ajuste o tamanho conforme necessário
   const ctx = canvas.getContext('2d');
 
   // Fundo branco
@@ -27,17 +27,17 @@ const generateQRCodeWithText = async (plant) => {
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
   // Adiciona o nome da planta
-  ctx.font = '36px Arial';
+  ctx.font = '28px Arial';
   ctx.fillStyle = 'black';
   ctx.textAlign = 'center';
-  ctx.fillText(plant.name, canvas.width / 2, 75);
+  ctx.fillText(plant.name, canvas.width / 2, 50);
 
   // Gera o QR Code como um Data URL
   const qrCodeUrl = await QRCode.toDataURL(`https://horta-escolar.vercel.app/plant/${plant.id}`);
 
   // Carrega o QR Code gerado e adiciona ao canvas
   const qrImage = await loadImage(qrCodeUrl);
-  ctx.drawImage(qrImage, 50, 100, 400, 400); // Posiciona o QR Code
+  ctx.drawImage(qrImage, 50, 50, 200, 200); // Posiciona o QR Code
 
   // Salva a imagem final no diretório
   const outputFile = path.join(outputDir, `${plant.id}.png`);
