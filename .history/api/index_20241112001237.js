@@ -27,7 +27,7 @@ app.use(
         scriptSrc: ["'self'", "https://vercel.live"],
         frameSrc: ["'self'", "https://vercel.live"],
         connectSrc: ["'self'", "wss://ws-us3.pusher.com"],
-        styleSrc: ["'self'", "'sha256-U6BGY+K/BaBXX1opDe6/JImhfLpoF8wZfgwTz5aYE4I='"],
+        styleSrc: ["'self'", "'unsafe-inline'"],
       },
     },
   })
