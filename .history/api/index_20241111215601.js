@@ -15,7 +15,7 @@ const plants = JSON.parse(
 app.use(express.static("public"));
 
 // Configuração do diretório de views
-app.set("views", path.join(__dirname, "..", "views"));
+app.set("views", path.join(__dirname, "", "views"));
 app.set("view engine", "ejs");
 
 // Configuração do Helmet com CSP personalizada
