@@ -48,7 +48,7 @@ const generateQRCodeWithTextAndFrame = async (plant) => {
   drawRoundedRect(ctx, 10, 10, canvas.width - 20, canvas.height - 20, 20);
 
   // Adiciona o nome da planta
-  ctx.font = '48px Arial';
+  ctx.font = '36px Arial';
   ctx.fillStyle = 'black';
   ctx.textAlign = 'center';
   ctx.fillText(plant.name, canvas.width / 2, 75);

@@ -34,7 +34,7 @@ function drawRoundedRect(ctx, x, y, width, height, radius) {
 }
 
 // Função para gerar a imagem com texto e QR Code
-const generateQRCodeWithTextAndFrame = async (plant) => {
+const generateQRCodeWithText = async (plant) => {
   const canvas = createCanvas(500, 550); // Ajuste o tamanho conforme necessário
   const ctx = canvas.getContext('2d');
 
@@ -48,7 +48,7 @@ const generateQRCodeWithTextAndFrame = async (plant) => {
   drawRoundedRect(ctx, 10, 10, canvas.width - 20, canvas.height - 20, 20);
 
   // Adiciona o nome da planta
-  ctx.font = '48px Arial';
+  ctx.font = '36px Arial';
   ctx.fillStyle = 'black';
   ctx.textAlign = 'center';
   ctx.fillText(plant.name, canvas.width / 2, 75);
@@ -69,7 +69,7 @@ const generateQRCodeWithTextAndFrame = async (plant) => {
 
 // Gera QR codes para todas as plantas
 plants.forEach(plant => {
-  generateQRCodeWithTextAndFrame(plant).catch(err => {
+  generateQRCodeWithText(plant).catch(err => {
     console.error(`Erro ao gerar QR Code para ${plant.name}:`, err);
   });
 });
