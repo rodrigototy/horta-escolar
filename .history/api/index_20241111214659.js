@@ -38,7 +38,7 @@ app.use("/plant", plantRoutes);
 // Middleware para capturar erros
 app.use((err, req, res, next) => {
   console.error(err.stack);
-  res.status(500).send("A aplicação quebrou!");
+  res.status(500).send("A");
 });
 
 // Exporta a função para Vercel
