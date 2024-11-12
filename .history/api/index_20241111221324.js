@@ -26,7 +26,7 @@ app.use(
         defaultSrc: ["'self'"],
         scriptSrc: ["'self'", "https://vercel.live"],
         frameSrc: ["'self'", "https://vercel.live"],
-        connectSrc: ["'self'", "wss://ws-us3.pusher.com"],
+        connectSrc: ["'self'", "wss://ws-us3.pusher.com"]
       },
     },
   })
