@@ -1,5 +1,6 @@
 [
     {
+        "key": 1,
         "id": "pimenta",
         "name": "Pimenta",
         "image": "pimenta.webp",
@@ -10,6 +11,7 @@
         "sunlight": "Sol pleno"
     },
     {
+        "key": 2,
         "id": "pimentao",
         "name": "Pimentão",
         "image": "pimentao.webp",
@@ -20,6 +22,7 @@
         "sunlight": "Sol pleno"
     },
     {
+        "key": 3,
         "id": "mamao",
         "name": "Mamão",
         "image": "mamao.webp",
@@ -30,6 +33,7 @@
         "sunlight": "Sol pleno"
     },
     {
+        "key": 4,
         "id": "cebolinha",
         "name": "Cebolinha",
         "image": "cebolinha.jpg",
@@ -40,6 +44,7 @@
         "sunlight": "Sol pleno"
     },
     {
+        "key": 5,
         "id": "tomate-cereja",
         "name": "Tomate Cereja",
         "image": "tomate-cereja.png",
@@ -50,6 +55,7 @@
         "sunlight": "Sol pleno"
     },
     {
+        "key": 6,
         "id": "couve",
         "name": "Couve",
         "image": "couve.jpg",
@@ -60,6 +66,7 @@
         "sunlight": "Sol pleno ou meia-sombra"
     },
     {
+        "key": 7,
         "id": "rucula",
         "name": "Rúcula",
         "image": "rucula.jpg",
@@ -70,6 +77,7 @@
         "sunlight": "Meia-sombra"
     },
     {
+        "key": 8,
         "id": "mastruz",
         "name": "Mastruz",
         "image": "mastruz.jpeg",
@@ -80,6 +88,7 @@
         "sunlight": "Sol pleno"
     },
     {
+        "key": 9,
         "id": "erva-cidreira",
         "name": "Erva Cidreira",
         "image": "erva-cidreira.webp",
@@ -90,6 +99,7 @@
         "sunlight": "Sol pleno ou meia-sombra"
     },
     {
+        "key": 10,
         "id": "malva",
         "name": "Malva",
         "image": "malva.webp",
@@ -100,6 +110,7 @@
         "sunlight": "Meia-sombra"
     },
     {
+        "key": 11,
         "id": "feijao-azul",
         "name": "Feijão Azul",
         "image": "feijao-azul.webp",
@@ -110,6 +121,7 @@
         "sunlight": "Sol pleno"
     },
     {
+        "key": 12,
         "id": "hortela-graudo",
         "name": "Hortelã Graúdo",
         "image": "hortela-graudo.jpeg",
@@ -120,6 +132,7 @@
         "sunlight": "Meia-sombra"
     },
     {
+        "key": 13,
         "id": "hortela-miudo",
         "name": "Hortelã Miúdo",
         "image": "hortela-miudo.jpg",
