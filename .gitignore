@@ -84,6 +84,7 @@ typings/
 
 # Nuxt.js build / generate output
 .nuxt
+bin/
 dist
 
 # Gatsby files
@@ -107,3 +108,7 @@ dist
 # TernJS port file
 .tern-port
 .vercel
+
+# Git files
+.history/
+.gitignore
